@@ -10,23 +10,32 @@ export const ProductsContainer = styled.div`
 
 export const ProductsWrapper = styled.div`
  display: flex;
-//  flex-wrap: wrap;
-//  justify-content: center;
  margin: 0 auto;
- overflow-x: auto; /* Permite el desplazamiento horizontal */
- scroll-snap-type: x mandatory; /* Habilita el desplazamiento suave y el ajuste de los elementos */
- -webkit-overflow-scrolling: touch; /* Mejora la experiencia de desplazamiento en dispositivos táctiles */
- scroll-padding: 50px; /* Espacio adicional al desplazarse */
- scroll-padding-left: 0; /* Ajusta el espacio adicional al principio */
- scroll-padding-right: 0; /* Ajusta el espacio adicional al final */
 
- /* Ocultar la barra de desplazamiento */
- -ms-overflow-style: none; /* IE y Edge */
- scrollbar-width: none; /* Firefox */
- &::-webkit-scrollbar {
-   display: none; /* Chrome, Edge, Safari */
+ /* Estilos para pantallas mayores a md */
+ @media (min-width: 769px) {
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ /* Estilos para pantallas md o menos */
+ @media (max-width: 768px) {
+   overflow-x: auto; /* Permite el desplazamiento horizontal */
+   scroll-snap-type: x mandatory; /* Habilita el desplazamiento suave y el ajuste de los elementos */
+   -webkit-overflow-scrolling: touch; /* Mejora la experiencia de desplazamiento en dispositivos táctiles */
+   scroll-padding: 50px; /* Espacio adicional al desplazarse */
+   scroll-padding-left: 0; /* Ajusta el espacio adicional al principio */
+   scroll-padding-right: 0; /* Ajusta el espacio adicional al final */
+
+   /* Ocultar la barra de desplazamiento */
+   -ms-overflow-style: none; /* IE y Edge */
+   scrollbar-width: none; /* Firefox */
+   &::-webkit-scrollbar {
+     display: none; /* Chrome, Edge, Safari */
+   }
  }
 `;
+
 
 
 export const ProductsCard = styled.div`
