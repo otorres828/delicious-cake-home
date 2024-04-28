@@ -12,7 +12,7 @@ export const FooterWrap = styled.div`
 	justify-content: center;
 	align-items: center;
 	max-width: 1300px;
-	margin: 0 auto;
+	margin: 0;
 `;
 
 export const SocialMedia = styled.section`
