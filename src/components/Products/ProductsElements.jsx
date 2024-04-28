@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ProductsContainer = styled.div`
 	/* width: 100vw; */
 	min-height: 100vh;
-	padding: 5rem calc((100vw - 1300px) / 2);
+	padding: 3rem calc((100vw - 1300px) / 2);
 	background: #D6ECEC;
 	color: #fff;
 `;
@@ -33,7 +33,7 @@ export const ProductsWrapper = styled.div`
    &::-webkit-scrollbar {
      display: none; /* Chrome, Edge, Safari */
    }
-//  }
+ }
 `;
 
 
