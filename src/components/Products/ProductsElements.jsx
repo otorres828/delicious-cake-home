@@ -33,7 +33,7 @@ export const ProductsWrapper = styled.div`
    &::-webkit-scrollbar {
      display: none; /* Chrome, Edge, Safari */
    }
- }
+//  }
 `;
 
 
