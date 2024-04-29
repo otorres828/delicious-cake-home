@@ -61,7 +61,7 @@ export const productDataTwo = [
 	},
 	{
 		img: product3,
-		alt: 'Bread Banana Vegano',
+		alt: 'Carrot Cake',
 		name: 'Carrot Cake',
 
 	},
