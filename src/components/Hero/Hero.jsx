@@ -23,7 +23,7 @@ function Hero() {
 			<HeroContent>
 				<HeroItems>
 					{/* <HeroH1>Delicious Cake</HeroH1> */}
-					<HeroP>Enjoid life eat cake</HeroP>
+					<HeroP>Enjoy life eat cake</HeroP>
 					{/* <HeroBtn><a href='#menu' style={{ "display":"none" }}>Ver Menu</a></HeroBtn> */}
 				</HeroItems>
 			</HeroContent>
