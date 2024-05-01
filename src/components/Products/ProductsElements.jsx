@@ -1,5 +1,24 @@
 import styled from 'styled-components';
 
+export const ArrowLeft = styled.div`
+//   position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 10;
+`;
+
+export const ArrowRight = styled.div`
+//   position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 10;
+`;
+
+
 export const ProductsContainer = styled.div`
 	/* width: 100vw; */
 	// min-height: 100vh;
@@ -11,6 +30,7 @@ export const ProductsContainer = styled.div`
 export const ProductsWrapper = styled.div`
  display: flex;
  margin: 0 auto;
+ 
 
  /* Estilos para pantallas mayores a md */
  @media (min-width: 769px) {

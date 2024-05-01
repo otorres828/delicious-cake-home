@@ -4,6 +4,7 @@ import ImgBg from '../../images/rebanada.jpg';
 
 export const VideoBackground = styled.video`
   position: fixed;
+  opacity:100%;
   top: 0;
   left: 0;
   z-index: -1;

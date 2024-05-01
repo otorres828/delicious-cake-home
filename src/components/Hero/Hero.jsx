@@ -7,7 +7,7 @@ import {
 	HeroP,
 	VideoBackground,
 } from './HeroElements';
-import ImgBg from '../../images/rell_tres_leches.mp4'; // Asegúrate de que esta ruta sea correcta
+import ImgBg from '../../images/cake_frutos_rojos.mp4'; // Asegúrate de que esta ruta sea correcta
 
 function Hero() {
 	const [isOpen, setIsOpen] = useState(false);
