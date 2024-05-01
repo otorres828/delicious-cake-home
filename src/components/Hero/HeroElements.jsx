@@ -4,21 +4,23 @@ import ImgBg from '../../images/rebanada.jpg';
 
 export const VideoBackground = styled.video`
   position: fixed;
-  opacity:100%;
+  opacity: 1; 
   top: 0;
   left: 0;
   z-index: -1;
   min-height: 100%;
-  min-WIDTH: 100%;
+  min-width: 100%;
 
   background-position: center;
   background-size: center;
+  filter: brightness(0.8) saturate(0.5); /* Ajusta la saturación y el brillo según sea necesario */
   @media screen and (max-width: 720px) {
-	  background-size: contain;
-  	  height: 100vh;
-
+    background-size: contain;
+    height: 100vh;
   }
 `;
+
+
 export const HeroContainer = styled.div`
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
 		// url(${ImgBg});
