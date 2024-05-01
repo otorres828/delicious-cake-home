@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const ProductsContainer = styled.div`
 	/* width: 100vw; */
-	min-height: 100vh;
-	padding: 3rem calc((100vw - 1300px) / 2);
+	// min-height: 100vh;
+	padding: 2rem calc((100vw - 1300px) / 2);
 	background: #D6ECEC;
 	color: #fff;
 `;
@@ -54,7 +54,7 @@ export const ProductsImg = styled.img`
 export const ProductsHeading = styled.h1`
 	font-size: clamp(2rem, 2.5vw, 3rem);
 	text-align: center;
-	margin-bottom: 5rem;
+	margin-bottom: 2.5rem;
 	color:black;
 `;
 
@@ -69,7 +69,7 @@ export const ProductsInfo = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 2rem;
+	padding: 1rem;
 	text-align: center;
 `;
 

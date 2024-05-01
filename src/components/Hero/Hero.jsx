@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import NavBar from '../Navbar/Navbar';
-import Sidebar from '../Sidebar/Sidebar';
 import {
 	HeroContainer,
 	HeroContent,
 	HeroItems,
-	HeroH1,
 	HeroP,
-	HeroBtn,
+	VideoBackground,
 } from './HeroElements';
+import ImgBg from '../../images/rell_tres_leches.mp4'; // Asegúrate de que esta ruta sea correcta
 
 function Hero() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -19,12 +18,11 @@ function Hero() {
 
 	return (
 		<HeroContainer>
+			<VideoBackground autoPlay loop muted playsInLine src={ImgBg} type="video/mp4" />
 			<NavBar toggle={toggle} />
 			<HeroContent>
 				<HeroItems>
-					{/* <HeroH1>Delicious Cake</HeroH1> */}
 					<HeroP>Enjoy life eat cake</HeroP>
-					{/* <HeroBtn><a href='#menu' style={{ "display":"none" }}>Ver Menu</a></HeroBtn> */}
 				</HeroItems>
 			</HeroContent>
 		</HeroContainer>

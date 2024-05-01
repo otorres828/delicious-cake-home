@@ -13,7 +13,6 @@ function App() {
 			<GlobalStyle />
 			<Hero />
 			<Products heading='Cheesecake' data={productDataTwo} />
-			{/* <Products heading='Menu' data={productData} /> */}
 			<Feature />
 			<Ubication />
 			<Footer />

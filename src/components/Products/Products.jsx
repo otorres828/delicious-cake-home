@@ -7,9 +7,7 @@ import {
 	ProductsImg,
 	ProductsInfo,
 	ProductsTitle,
-	ProductsDesc,
-	ProductsPrice,
-	ProductsButton,
+
 } from './ProductsElements';
 
 function Products({ heading, data }) {

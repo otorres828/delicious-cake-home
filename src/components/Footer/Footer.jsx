@@ -22,32 +22,32 @@ function Footer() {
 			<FooterWrap>
 				<SocialMedia>
 					<SocialMediaWrap>
-						<SocialLogo to='/'>Diseñado por: @otorres828</SocialLogo>
+						<SocialLogo to='/'>Siguenos en nuestras Redes Sociales</SocialLogo>
 						<SocialIcons>
-							<SocialIconLink
+							{/* <SocialIconLink
 								href='https://www.facebook.com/Delicious Cakevzla'
 								target='_blank'
 								aria-label='Facebook'
 								rel='noopener noreferrer'
 							>
 								<FaFacebook />
-							</SocialIconLink>
+							</SocialIconLink> */}
 							<SocialIconLink
-								href='/'
+								href='https://instagram.com/deliciouscake.bcn'
 								target='_blank'
 								aria-label='Instagram'
 								rel='noopener noreferrer'
 							>
 								<FaInstagram />
 							</SocialIconLink>
-							<SocialIconLink
+							{/* <SocialIconLink
 								href='https://www.youtube.com/@Delicious Cake.v'
 								target='_blank'
 								aria-label='YouTube'
 								rel='noopener noreferrer'
 							>
 								<FaYoutube />
-							</SocialIconLink>
+							</SocialIconLink> */}
 							{/* <SocialIconLink
 								href='/'
 								target='_blank'
