@@ -22,9 +22,9 @@ export const ArrowRight = styled.div`
 export const ProductsContainer = styled.div`
 	/* width: 100vw; */
 	// min-height: 100vh;
-	padding: 2rem calc((100vw - 1300px) / 2);
-	background: #D6ECEC;
-	color: #fff;
+	padding: 1rem 0rem;
+	// background: #D6ECEC;
+	// color: #fff;
 `;
 
 export const ProductsWrapper = styled.div`
@@ -105,8 +105,7 @@ export const ProductsPrice = styled.p`
 export const ProductsButton = styled.button`
 	font-size: 1rem;
 	padding: 1rem 4rem;
-	border: none;
-	background: #e31837;
++	background: #e31837;
 	color: #fff;
 	transition: 0.2s ease-out;
 

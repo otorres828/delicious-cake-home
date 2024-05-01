@@ -28,6 +28,98 @@ export const productData = [
 	},
 ];
 
+export const productCheesecake = [
+	{
+		img: sweet1,
+		alt: 'Frutos rojos',
+		name: 'Frutos Rojos',
+		
+	},
+	{
+		img: sweet3,
+		alt: 'Maracuyá',
+		name: 'Maracuyá',
+		
+	},
+	{
+		img: product1,
+		alt: 'Fresa',
+		name: 'Fresa',
+		
+	},
+	{
+		img: product4,
+		alt: 'Caramelo Salado',
+		name: 'Caramelo Salado',
+	
+	},
+	
+];
+
+
+export const productTarta2kg = [
+
+	{
+		img: product1,
+		alt: 'Red velvet',
+		name: 'Red velvet',
+		
+	},
+	{
+		img: product3,
+		alt: 'Carrot Cake',
+		name: 'Carrot Cake',
+
+	},
+	{
+		img: product5,
+		alt: 'Coco Cake',
+		name: 'Coco Cake',
+	
+	},
+];
+
+
+export const productTarta1kg = [
+
+	{
+		img: product1,
+		alt: 'Red velvet',
+		name: 'Red velvet',
+		
+	},
+	{
+		img: product3,
+		alt: 'Carrot Cake',
+		name: 'Carrot Cake',
+
+	},
+	{
+		img: product5,
+		alt: 'Coco Cake',
+		name: 'Coco Cake',
+	
+	},
+];
+
+
+export const product3Leches = [
+	{
+		img: sweet2,
+		alt: 'Tiramisú',
+		name: 'Tiramisú',
+		
+	},
+	{
+		img: product2,
+		alt: 'Bread Banana Vegano',
+		name: 'Bread Banana Vegano',
+		
+	},
+
+];
+
+
 export const productDataTwo = [
 	{
 		img: sweet1,
