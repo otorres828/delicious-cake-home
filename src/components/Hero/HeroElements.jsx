@@ -13,7 +13,7 @@ export const VideoBackground = styled.video`
 
   background-position: center;
   background-size: center;
-  filter: brightness(0.8) saturate(0.5); /* Ajusta la saturación y el brillo según sea necesario */
+  filter: brightness(0.8) saturate(0.6); /* Ajusta la saturación y el brillo según sea necesario */
   @media screen and (max-width: 720px) {
     background-size: contain;
     height: 100vh;
