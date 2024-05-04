@@ -57,8 +57,13 @@ export const productCheesecake = [
 ];
 
 
-export const productTarta2kg = [
-
+export const productTarta1kg2kg = [
+	{
+		img: product5,
+		alt: 'Coco Cake',
+		name: 'Coco Cake',
+	
+	},
 	{
 		img: product1,
 		alt: 'Red velvet',
@@ -71,12 +76,7 @@ export const productTarta2kg = [
 		name: 'Carrot Cake',
 
 	},
-	{
-		img: product5,
-		alt: 'Coco Cake',
-		name: 'Coco Cake',
-	
-	},
+
 ];
 
 
