@@ -17,7 +17,7 @@ function App() {
 				<br/><br/>
 				<Products heading='Cheesecake' data={productCheesecake} />
 				<Products heading='Cake 2 kg y 1 kg' data={productTarta1kg2kg} />
-				<Products heading='Delicious Selection' data={product3Leches} />
+				<Products heading='Delicious Selectión' data={product3Leches} />
 				<br/><br/>
 			</div>
 

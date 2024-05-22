@@ -118,15 +118,41 @@ export const productTarta1kg2kg = [
 		name: 'Pasión Cake (Tarta/Maracuyá)',
 		
 	},
+	{
+		img: product2,
+		alt: 'Standberry',
+		name: 'Standberry Cake (Tarta/Fresa)',
+		
+	},
 
 ];
 
 export const product3Leches = [
 	{
 		img: c2,
+		alt: 'Cokies Nutella',
+		name: 'Cokies Nutella',
+		
+	},
+	{
+		img: c2,
 		alt: 'Tiramisú',
 		name: 'Tiramisú',
-		
+	},
+	{
+		img: c2,
+		alt: 'Tres Leches',
+		name: 'Tres Leches',
+	},
+	{
+		img: c2,
+		alt: 'Brownie',
+		name: 'Brownie',
+	},
+	{
+		img: c2,
+		alt: 'cookie Chips',
+		name: 'Cookie Chips',
 	},
 
 
