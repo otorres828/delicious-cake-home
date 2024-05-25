@@ -29,8 +29,8 @@ export const ProductsContainer = styled.div`
 
 export const ProductsWrapper = styled.div`
  display: flex;
- margin: 0 auto;
- padding: 0px 3rem 0 3rem;
+ margin:  auto;
+ padding: 1px 3rem 0 3rem;
 
  /* Estilos para pantallas mayores a md */
  @media (min-width: 769px) {
@@ -48,11 +48,28 @@ export const ProductsWrapper = styled.div`
    scroll-padding-right: 0; /* Ajusta el espacio adicional al final */
 
    /* Ocultar la barra de desplazamiento */
-   -ms-overflow-style: none; /* IE y Edge */
-   scrollbar-width: none; /* Firefox */
-   &::-webkit-scrollbar {
-     display: none; /* Chrome, Edge, Safari */
-   }
+//    -ms-overflow-style: none; /* IE y Edge */
+//    scrollbar-width: none; /* Firefox */
+//    &::-webkit-scrollbar {
+//      display: none; /* Chrome, Edge, Safari */
+// 	 color:black;
+//    }
+
+::-webkit-scrollbar {
+	width: 12px; /* Ancho de la barra de desplazamiento */
+  }
+
+  ::-webkit-scrollbar-track {
+	background: transparent; /* Color de fondo de la barra de desplazamiento */
+  }
+
+  ::-webkit-scrollbar-thumb {
+	background-color: darkgrey; /* Color de la barra de desplazamiento */
+	border-radius: 20px; /* Redondeo de los bordes de la barra de desplazamiento */
+	&:hover {
+	  background-color: grey; /* Cambia el color al pasar el mouse */
+	}
+  }
  }
 `;
 
