@@ -11,6 +11,7 @@ import {
 	ArrowLeft,
 
 } from './ProductsElements';
+import Card from '../Feature/Card';
 
 function Products({ heading, data }) {
 	return (
@@ -21,7 +22,7 @@ function Products({ heading, data }) {
 				{data.map((product, index) => {
 					return (
 						<ProductsCard key={index}>
-							<ProductsImg src={product.img} alt={product.alt} />
+							<Card product={product}/>
 							<ProductsInfo>
 								<ProductsTitle className='w-full'>{product.name}</ProductsTitle>
 							</ProductsInfo>

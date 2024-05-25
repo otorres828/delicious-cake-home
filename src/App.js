@@ -6,6 +6,7 @@ import {  productCheesecake,productTarta1kg2kg, product3Leches } from './compone
 import Feature from './components/Feature/Feature';
 import Footer from './components/Footer/Footer';
 import Ubication from './components/Feature/Ubication';
+import Card from './components/Feature/Card';
 
 function App() {
 	return (
