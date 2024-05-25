@@ -14,8 +14,8 @@ import frutos_rojos_1 from '../../images/frutos_rojos_1.jpg';
 import frutos_rojos_2 from '../../images/frutos_rojos_2.jpg';
 import frutos_rojos_3 from '../../images/frutos_rojos_3.jpg';
 import frutos_rojos_4 from '../../images/frutos_rojos_4.jpg';
-import c2 from '../../images/tiramisu.jpg';
-import c3 from '../../images/maracuya.jpg';
+import tiramisu_1 from '../../images/tiramisu_1.jpg';
+import fresa_1 from '../../images/fresa_1.jpg';
 import caramelo_salado_1 from '../../images/caramelo_salado_1.jpg';
 import caramelo_salado_2 from '../../images/caramelo_salado_2.jpg';
 import caramelo_salado_3 from '../../images/caramelo_salado_3.jpg';
@@ -35,6 +35,10 @@ import brownie_2 from '../../images/brownie_2.jpg';
 import galleta_1 from '../../images/galleta_1.jpg';
 import galleta_2 from '../../images/galleta_2.jpg';
 import galleta_3 from '../../images/galleta_3.jpg';
+import tres_leches_1 from '../../images/tres_leches_1.jpg';
+import tres_leches_2 from '../../images/tres_leches_2.jpg';
+import maracuya_1 from '../../images/maracuya_1.jpg';
+
 
 
 
@@ -46,13 +50,13 @@ export const productCheesecake = [
 		
 	},
 	{
-		img: [pasion_cake_4],
+		img: [maracuya_1],
 		alt: 'Maracuyá',
 		name: 'Maracuyá',
 		
 	},
 	{
-		img: [c3],
+		img: [fresa_1],
 		alt: 'Fresa',
 		name: 'Fresa',
 		
@@ -164,18 +168,18 @@ export const productTarta1kg2kg = [
 
 export const product3Leches = [
 	{
-		img: [c2],
+		img: [galleta_2,galleta_3],
 		alt: 'Cokies Nutella',
 		name: 'Cokies Nutella',
 		
 	},
 	{
-		img: [c2],
+		img: [tiramisu_1],
 		alt: 'Tiramisú',
 		name: 'Tiramisú',
 	},
 	{
-		img: [c2],
+		img: [tres_leches_1,tres_leches_2],
 		alt: 'Tres Leches',
 		name: 'Tres Leches',
 	},
@@ -185,7 +189,7 @@ export const product3Leches = [
 		name: 'Brownie',
 	},
 	{
-		img: [galleta_1,galleta_2,galleta_3],
+		img: [galleta_1],
 		alt: 'cookie Chips',
 		name: 'Cookie Chips',
 	},
