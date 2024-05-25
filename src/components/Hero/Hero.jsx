@@ -5,9 +5,11 @@ import {
 	HeroContent,
 	HeroItems,
 	HeroP,
+	ImageBackground,
 	VideoBackground,
 } from './HeroElements';
 import ImgBg from '../../images/tarta_frutos_rojos.MP4'; // Asegúrate de que esta ruta sea correcta
+import Tienda1 from '../../images/tienda_1.jpg'; // Asegúrate de que esta ruta sea correcta
 
 function Hero() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -16,9 +18,17 @@ function Hero() {
 		setIsOpen(!isOpen);
 	};
 
+
 	return (
 		<HeroContainer>
-			<VideoBackground autoPlay loop muted playsInLine src={ImgBg} type="video/mp4" />
+			{window.innerWidth > 820 ?
+
+				<ImageBackground src={Tienda1} type="image" />
+
+				:
+
+				<VideoBackground autoPlay loop muted playsInLine src={ImgBg} type="video/mp4" />
+			}
 			<NavBar toggle={toggle} />
 			<HeroContent>
 				<HeroItems>

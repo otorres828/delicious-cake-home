@@ -30,7 +30,7 @@ export const ProductsContainer = styled.div`
 export const ProductsWrapper = styled.div`
  display: flex;
  margin: 0 auto;
- 
+ padding: 0px 3rem 0 3rem;
 
  /* Estilos para pantallas mayores a md */
  @media (min-width: 769px) {

@@ -20,6 +20,26 @@ export const VideoBackground = styled.video`
   }
 `;
 
+export const ImageBackground = styled.img`
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  min-height: 100%;
+  min-width: 100%;
+
+  object-fit: cover; 
+
+  opacity: 0.9; // Aumenta la opacidad a 0.8 (el valor puede variar dependiendo de tu preferencia)
+
+  filter: brightness(1) saturate(1); // Ajusta la saturación a 1.5 veces más alta que el original
+
+  @media screen and (max-width: 720px) {
+    width: 100%; 
+    height: auto; 
+  }
+`;
+
 
 export const HeroContainer = styled.div`
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
