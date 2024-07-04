@@ -117,12 +117,7 @@ export const productTarta1kg2kg = [
 		img: [product2],
 		
 	},
-	{
-		alt: 'Flor de Otoño (Tarta/Quesillo)',
-		name: 'Flor de Otoño (Tarta/Quesillo)',
-		img: [product2],
-		
-	},
+
 	
 	{
 		alt: 'Pasión Cake',
@@ -138,7 +133,7 @@ export const productTarta1kg2kg = [
 	},
 	{
 		alt: 'Standberry',
-		name: 'Standberry Cake (Tarta/Fresa)',
+		name: 'Standberry Cake',
 		img: [product2],
 		
 	},
