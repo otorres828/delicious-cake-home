@@ -66,19 +66,8 @@ export const productCheesecake = [
 		alt: 'Caramelo Salado',
 		name: 'Caramelo Salado',
 	
-	},
-	{
-		img: [caramelo_salado_1],
-		alt: 'Lotus',
-		name: 'Lotus',
-	
-	},
-	{
-		img: [caramelo_salado_1],
-		alt: 'Pistacho',
-		name: 'Pistacho',
-	
-	},
+	}
+
 	
 ];
 
@@ -114,24 +103,14 @@ export const productTarta1kg2kg = [
 		img: [selva_negra_1,selva_negra_2],
 	
 	},
-	{
-		alt: 'Milhojas Dulce de Leche',
-		name: 'Milhojas Dulce de Leche',
-		img: [coco_cake_1],
-	
-	},
+
 	{
 		alt: 'Porción de Amor (chocolate con dulce de leche)',
 		name: 'Porción de Amor (chocolate con D/L)',
 		img: [porciondeamor_1,porciondeamor_2,porciondeamor_3],
 	
 	},
-	{
-		alt: 'Lemon Cake',
-		name: 'Lemon Cake',
-		img: [coco_cake_1],
-	
-	},
+
 	{
 		alt: 'Bread Banana Vegano',
 		name: 'Bread Banana Vegano',
@@ -169,8 +148,8 @@ export const productTarta1kg2kg = [
 export const product3Leches = [
 	{
 		img: [galleta_2,galleta_3],
-		alt: 'Cokies Nutella',
-		name: 'Cokies Nutella',
+		alt: 'Cokies Chips',
+		name: 'Cokies Chips',
 		
 	},
 	{
@@ -190,12 +169,12 @@ export const product3Leches = [
 	},
 	{
 		img: [galleta_1],
-		alt: 'cookie Chips',
-		name: 'Cookie Chips',
+		alt: 'cookie Nutella',
+		name: 'Cookie Nutella',
 	},
 	{
 		img: [muffings_1],
-		alt: 'cookie Chips',
+		alt: 'Muffins Relleno',
 		name: 'Muffins Relleno',
 	},
 

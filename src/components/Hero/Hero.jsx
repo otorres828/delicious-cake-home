@@ -8,7 +8,7 @@ import {
 	ImageBackground,
 	VideoBackground,
 } from './HeroElements';
-import ImgBg from '../../images/tarta_frutos_rojos.MP4'; // Asegúrate de que esta ruta sea correcta
+import ImgBg from '../../images/tarta_fr.mp4'; // Asegúrate de que esta ruta sea correcta
 import Tienda1 from '../../images/tienda_1.jpg'; // Asegúrate de que esta ruta sea correcta
 
 function Hero() {
