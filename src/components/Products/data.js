@@ -131,12 +131,7 @@ export const productTarta1kg2kg = [
 		
 		
 	},
-	{
-		alt: 'Standberry',
-		name: 'Standberry Cake',
-		img: [product2],
-		
-	},
+
 
 ];
 
