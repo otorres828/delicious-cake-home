@@ -42,4 +42,32 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 	</body>
+
+	<script>
+		const url = 'https://kalyana.com.mx/api/cumlaude/obtiene/productos';
+const token = 'ZYXfbh5fxOQngrblGUqJlKfDkt2xdGy15DPLBSz5CYvkN0vV8rGbt12173OS';
+
+fetch(url, {
+  method: 'GET',
+  headers: {
+    'Authorization': `Bearer ${token}`,
+    'Content-Type': 'application/json' // O el tipo de contenido que la API espere
+  }
+})
+.then(response => {
+  if (!response.ok) {
+    // Si la respuesta no es exitosa (ej. 401, 404), lanzar un error
+    throw new Error(`Error de red: ${response.statusText}`);
+  }
+  return response.json(); // Parsea la respuesta como JSON
+})
+.then(data => {
+  console.log('Datos recibidos:', data);
+  // Aquí puedes manejar los datos recibidos (ej. mostrarlos en la UI)
+})
+.catch(error => {
+  console.error('Hubo un problema con la petición fetch:', error);
+  // Aquí puedes manejar errores, como los de CORS o de red
+});
+	</script>
 </html>
